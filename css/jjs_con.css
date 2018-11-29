@@ -1,0 +1,425 @@
+/*
+* @Author: admin
+* @Date:   2018-11-28 11:08:56
+* @Last Modified by:   admin
+* @Last Modified time: 2018-11-28 23:17:35
+*/
+.js_con{
+	width: 75%;
+	margin: 0px auto;
+	margin-top: 10%;
+
+}
+.js_gun{
+	
+	width: 100%;
+	overflow: hidden;
+	height: 0px;
+	padding-bottom: 41%;
+	
+}
+@media screen and (max-width: 765px){
+	.js_con{
+		width: 100%;
+		margin-top: 12%;
+		
+	}
+	.js_gun{
+		width: 100%;
+		padding-bottom: 41%;
+	}
+
+}
+
+.js_ciyuan .active1{
+	margin:0px  5px;
+}
+.js_sana{
+	width: 100%;
+	color: #000;
+	margin: 5% 0px;
+}
+.js_sana ul{
+	width: 100%;
+	overflow: hidden;
+	line-height: 60px;
+}
+.js_sana ul li{
+	width: 30%;
+	float: left;
+	height: 60px;
+	background-size: 40%;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.js_sana ul li a{
+	color: #000;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.js_sanali1{
+	background: url('../images/bg1.png');
+	background-repeat: no-repeat;
+	background-position:bottom right;
+	background-origin:border-box;
+	border-left: 1px solid #3fbef3;
+	border-bottom: 1px solid #3fbef3;
+}
+.js_sanali2{
+	background: url('../images/bg2.png');
+	background-repeat: no-repeat;
+	background-position:bottom right;
+	background-origin:border-box;
+	border-left: 1px solid #ff94b7;
+	border-bottom: 1px solid #ff94b7;
+	margin-left: 5%;
+}
+.js_sanali3{
+	background: url('../images/bg3.png');
+	background-repeat: no-repeat;
+	background-position:bottom right;
+	background-origin:border-box;
+	border-left: 1px solid #668be0;
+	border-bottom: 1px solid #668be0;
+	margin-left: 5%;
+}
+@media screen and (max-width: 765px){
+	.js_sana ul li{
+		background-size: 50%;
+		margin: 10px 3%;
+		height: 40px;
+		line-height: 40px;
+	}
+	.js_sana .js_sanali1{
+		width: 94%;
+		background-size: 30%;
+	}
+	.js_sana .js_sanali2,.js_sana .js_sanali3{
+		width: 44%;
+	}
+}
+
+.js_dianlunb{
+	width: 100%;
+	overflow: hidden;
+}
+.js_dianlunb img{
+	width: 100%;
+}
+.js_dianlunb h3{
+	margin: 2% 0px;
+}
+.js_piclb ul{
+	width: 500%;
+	height: 0px;
+	padding-bottom: 24.5%;
+	transition: 1s;
+}
+.js_piclb ul li{
+	width: 20%;
+	float: left;
+}
+.js_piclb ul li a{
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #000;
+	overflow: hidden;
+}
+.js_picspan{
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	font-size: 16px;
+	opacity: 1;
+	text-align: center;
+}
+.js_picspan span{
+	display: block;
+	width: 28%;
+	margin: 0px auto;
+	height: 88px;
+	line-height: 88px;
+	background: #fff;
+	opacity: 0.9;
+	position: relative;
+}
+.js_picspan span::after{
+	content: "";
+	position: absolute;
+	border: 1px solid #000;
+	width: 95%;
+	height: 80%;
+	display: block;
+	left: 2.5%;
+	top: 10%;
+	box-sizing: border-box;
+	opacity: 0.1;
+}
+.js_picoth{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	text-align: center;
+	font-size: 18px;
+}
+.js_picoth span{
+	width: 10%;
+	padding:10px 15px;
+	border-left: 2px solid #668be0;
+	border-bottom:  2px solid #ed6f65;
+}
+@media screen and (max-width: 765px){
+	.js_dianlunb{
+
+	}
+	.js_dianlunb img{
+		width: 200%;
+		height: 100%;
+		
+	}
+	.js_picspan{
+		opacity: 0.8;
+	}
+	.js_picspan span{
+		width: 50%;
+	}
+	.js_picoth{
+		display: none;
+	}
+}
+.js_piclb2{
+	width: 100%;
+}
+.js_piclb2 ul{
+	width: 100%;
+	border-bottom: 1px solid #e4e4e4;
+	overflow: hidden;
+	padding-bottom: 2%;
+}
+.js_piclb2 ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+	border: 1px dotted #fff;
+}
+.js_piclb2 ul li a{
+	color: #000;
+	background: #8cd3ff;
+	font-size: 12px;
+	line-height: 25px;
+	margin: 1% 5%;
+	width: 90%;
+	display: block;
+	box-sizing: border-box;
+}
+.js_piclb2 ul li img{
+	width: 100%;
+}
+@media screen and (max-width: 765px){
+	.js_piclb2 ul li p{
+		display: none;
+	}
+}
+.js_tu123{
+	width: 100%;
+}
+.js_tu123>div{
+	width: 100%;
+}
+.js_huanx{
+	width: 30%;
+	height: 0px;
+	padding-bottom:10%;
+	overflow: hidden;
+	padding-top: 10%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background: url('../images/magazine-20171220-trend2-main.jpg') no-repeat;
+	background-size: 100%;
+	float: left;
+
+}
+.js_huanx2{
+	float: left;
+	width: 70%;
+}
+.js_huanx2 img{
+	width: 90%;
+	margin: 5%;
+}
+.js_shany{
+	width: 100%;
+	height: 0px;
+	padding-bottom: 15%;
+	
+}
+.js_shany ul{
+	width: 100%;
+	overflow: hidden;
+}
+.js_shany ul li{
+	float: left;
+	width: 15%;
+	position: relative;
+}
+.js_shany ul li div{
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	padding: 35% 0px;
+	background: #000;
+	opacity: 0.7;
+	color: #fff;
+	text-align: center;
+	display: none;
+	font-size: 16px;
+}
+.js_shany ul li:hover div{
+	display: block;
+}
+.js_shany1 ul li{
+	float: left;
+}
+.js_shany2 ul li{
+	float: right;
+}
+@media screen and (max-width:765px){
+	.js_dianlunb h3,.js_tu123 h3{
+		padding-left: 2%;
+	}
+	.js_huanx{
+		width: 100%;
+		padding-top: 5%;
+		font-size: 16px;
+		margin: 3% 0px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	.js_huanx2{
+		width: 100%;
+	}
+	.js_shany{
+		width: 100%;
+		height: 0px;
+		padding-bottom: 100%;
+		
+	}
+	.js_shany ul li{
+		width: 50%;
+		
+	}
+}
+.js_meir123{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 10%;
+}
+.js_mrleft{
+	float: left;
+	width: 45%;
+	background: #f7f7f7;
+	padding: 2%;
+	box-sizing: border-box;
+	height: 0px;
+	padding-bottom: 33%;
+}
+.js_mrright{
+	float: left;
+	width: 30%;
+	height: 0px;
+	padding-bottom: 35%;
+	overflow: hidden;
+}
+.js_mrright img{
+	width: 100%;
+}
+.js_pppp{
+	margin-left: -5%;
+	padding-left: 5%;
+	font-size: 16px;
+	background: #ed568b;
+	line-height: 50px;
+	height: 50px;
+	width: 80%;
+	color: #fff;
+}
+@media screen and (max-width: 765px){
+	.js_mrleft{
+		width: 40%;
+		height: 0px;
+		padding-bottom: 68%;
+		overflow: hidden;
+	}
+	.js_mrright{
+		width: 60%;
+		height: 0px;
+		padding-bottom: 70%;
+	}
+	.js_mrconp{
+		display: none;
+	}
+	.js_pppp{
+		line-height: 40px;
+		height: 40px;
+	}
+}
+
+.js_meizdz{
+	width: 100%;
+	margin-top: 10%;
+	overflow: hidden;
+}
+.meizdz1{
+	float: left;
+	width: 50%;
+}
+.meizdz1 img{
+	width: 100%;
+}
+.meizdz2 img{
+	width: 70%;
+}
+.meizdz2{
+	float: left;
+	width: 50%;
+	
+}
+.mei1{
+	background: #ffc3ba;
+	height: 0px;
+	padding: 5%;
+	padding-bottom: 40%;
+}
+.mei2{
+	background: #b1d7f5;
+	height: 0px;
+	padding: 5%;
+	padding-bottom: 40%;
+}
+.meizdz1>div,.meizdz2>div{
+	width: 45%;
+	margin: 0px 2.5%;
+	float: left;
+}
+@media screen and (max-width: 765px){
+	.meizdz1,.meizdz2{
+		width: 100%;
+		
+	}
+	.meizdz2>div{
+		width: 50%;
+		height: 0px;
+		padding-bottom: 60%;
+		margin: 0px;
+	}
+	.js_meizdz h3{
+		padding-left: 5%;
+	}
+	
+}
